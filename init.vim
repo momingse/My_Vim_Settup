@@ -6,9 +6,7 @@ nnoremap tk  :tabprev<CR>
 nnoremap tc  :tabclose<CR>
 let mapleader =','
 
-let g:python3_host_prog = 'C:\Users\user\AppData\Local\Programs\Python\Python38-32\python'
-
-call plug#begin('C:\Users\user\AppData\Local\nvim\plugged')
+call plug#begin()
 Plug 'morhetz/gruvbox'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'preservim/nerdtree'
